@@ -25,7 +25,7 @@ AviUtl プロジェクトファイル（*.aup）を`aup2exedit_backup.exe`にド
 ### コンソールから使う場合
 ```
 > aup2exedit_backup --help
-aup2exedit_backup 0.0.0
+aup2exedit_backup 0.1.0
 Copyright © 2021 karoterra
 USAGE:
 バックアップファイルを出力する:
