@@ -9,9 +9,9 @@
 から最新版の ZIP ファイルをダウンロードし、好きな場所に展開してください。
 
 - `aup2exedit_backup-<バージョン>-win64-fd.zip`
-  - .NET 6 ランタイムをインストール済みの場合
+  - .NET 8 ランタイムをインストール済みの場合
 - `aup2exedit_backup-<バージョン>-win64-sc.zip`
-  - .NET 6 ランタイムをインストールせずに使う場合
+  - .NET 8 ランタイムをインストールせずに使う場合
   - よく分からないがとにかく使いたい場合
 
 アンインストール時には展開したフォルダを削除してください。
@@ -25,7 +25,7 @@ AviUtl プロジェクトファイル（*.aup）を`aup2exedit_backup.exe`にド
 ### コンソールから使う場合
 ```
 > aup2exedit_backup --help
-aup2exedit_backup 0.1.0
+aup2exedit_backup 0.2.0
 Copyright © 2021 karoterra
 USAGE:
 バックアップファイルを出力する:
