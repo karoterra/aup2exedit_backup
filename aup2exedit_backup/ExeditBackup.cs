@@ -27,7 +27,7 @@ namespace aup2exedit_backup
             var span = new ReadOnlySpan<byte>(data);
             FormatVersion = span.ToUInt32();
             ExeditVersion = span[0x2C..].ToUInt32();
-            FrameNum = editHandle.FrameNum;
+            FrameNum = editHandle.Frames.Count;
             Width = editHandle.Width;
             Height = editHandle.Height;
             VideoRate = editHandle.VideoRate;
